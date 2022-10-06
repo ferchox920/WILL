@@ -14,6 +14,19 @@ function numeroSimetrico(num) {
 
   // Tu código:
 
+  e = num;
+  a = e.toString();
+  i = a.split("");
+  o = i.reverse();
+  u = o.join("");
+
+
+  if (num == u) {
+    return true;
+  } else {
+    return false;
+  }
+
 }
 
 // No modifiques nada debajo de esta linea //
